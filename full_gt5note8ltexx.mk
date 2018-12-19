@@ -17,7 +17,9 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# TODO: Change device identifiers.
+# TODO: Inherit from gt5note8ltexx device file.
+#$(call inherit-product, device/samsung/gt5note8ltexx/device.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gt5note8ltexx
 PRODUCT_NAME := full_gt5note8ltexx
