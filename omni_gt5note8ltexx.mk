@@ -17,7 +17,6 @@
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# TODO: Add this file.
-#$(call inherit-product, device/motorola/harpia/full_harpia.mk)
+$(call inherit-product, device/samsung/gt5note8ltexx/full_gt5note8ltexx.mk)
 
 PRODUCT_NAME := omni_gt5note8ltexx
